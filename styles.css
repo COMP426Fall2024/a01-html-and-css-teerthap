@@ -1,0 +1,63 @@
+body {
+    background-color: #ADD8E6;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    text-align: center;
+}
+
+a:hover {
+  background-color: #00FF00;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-item {
+  flex: 1;
+  text-align: center;
+}
+
+.overview {
+    border: 2px solid purple;
+    padding: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.fun-facts {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.fun-facts li {
+  color: green;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+#pop-culture {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#pop-culture td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#pop-culture tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#table-desc {
+    font-size: 24px;
+}
